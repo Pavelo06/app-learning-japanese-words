@@ -7,7 +7,7 @@ public partial class PageMenuZalogowanegoUzytkownia : ContentPage
 		InitializeComponent();
 	}
     private async void buttonGoToWordSetPage(object sender, EventArgs e) {
-		await Navigation.PushModalAsync(new PageWordCategoryList());
+		//await Navigation.PushModalAsync(new PageWordCategoryList());
     }
 
     private async void buttonLogout(object sender, EventArgs e) {

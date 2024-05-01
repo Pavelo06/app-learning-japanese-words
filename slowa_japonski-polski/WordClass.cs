@@ -9,14 +9,14 @@ namespace slowa_japonski_polski
     public class WordClass
     {
         public string inRomaji;
-        public string inHiraganaOrKatakana;
+        public string inKanjiHiraganaKatakana;
         public string inEnglish;
         public string wordSet;
         //public string soundOfWord;
 
-        public WordClass(string inRomaji, string inHiraganaOrKatakana, string inEnglish, string wordSet) {
+        public WordClass(string inRomaji, string inKanjiHiraganaKatakana, string inEnglish, string wordSet) {
             this.inRomaji = inRomaji;
-            this.inHiraganaOrKatakana = inHiraganaOrKatakana;
+            this.inKanjiHiraganaKatakana = inKanjiHiraganaKatakana;
             this.inEnglish = inEnglish;
             this.wordSet = wordSet;
         }

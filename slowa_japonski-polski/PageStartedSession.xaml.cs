@@ -1,11 +1,16 @@
+using Plugin.Maui.Audio;
+
 namespace slowa_japonski_polski;
 
 public partial class PageStartedSession : ContentPage
 {
-	List<WordClass> currentWordList;
-	public PageStartedSession(List<WordClass> wordList)
+    private readonly IAudioManager audioManager;
+
+    List<WordClass> currentWordList;
+	public PageStartedSession(List<WordClass> wordList, IAudioManager audioManager)
 	{
 		InitializeComponent();
+        this.audioManager = audioManager;
 
 		currentWordList = wordList;
 
@@ -23,7 +28,7 @@ public partial class PageStartedSession : ContentPage
         string correctWordInEnglish = "";
 
         foreach (var word in currentWordList) {
-            if (wordToGuess == word.inHiraganaOrKatakana) {
+            if (wordToGuess == word.inKanjiHiraganaKatakana) {
                 correctWordInEnglish = word.inEnglish;
             }
         }
@@ -69,7 +74,7 @@ public partial class PageStartedSession : ContentPage
     private void goToNextWord() {
         idWordToGuess = random.Next(currentWordList.Count);
 
-        labelSessionWordToGuess.Text = currentWordList[idWordToGuess].inHiraganaOrKatakana;
+        labelSessionWordToGuess.Text = currentWordList[idWordToGuess].inKanjiHiraganaKatakana;
         labelWordInRomaji.Text = currentWordList[idWordToGuess].inRomaji;
     }
 
@@ -91,7 +96,14 @@ public partial class PageStartedSession : ContentPage
     }
 
     private async void buttonLeave(object sender, EventArgs e) {
-        await Navigation.PopModalAsync();
+        entryTypedWord.IsEnabled = false;
 
+        await Navigation.PopModalAsync();
+    }
+
+    private async void imageButtonWordSound(object sender, EventArgs e) {
+        var player = audioManager.CreatePlayer(await FileSystem.OpenAppPackageFileAsync("cauldron.wav")); //add sounds for all words
+
+        player.Play();
     }
 }

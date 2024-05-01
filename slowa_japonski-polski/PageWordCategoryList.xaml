@@ -16,7 +16,9 @@
         <!--few categories with word sets-->
         <Button Text="Animals A" Clicked="buttonChoosedWordSet"/>
         <Button Text="Animals B" Clicked="buttonChoosedWordSet"/>
-        <Button Text="Human Parts A" Clicked="buttonChoosedWordSet"/>
-        <Button Text="Human Parts B" Clicked="buttonChoosedWordSet"/>
+        <Button Text="Human Face Parts" Clicked="buttonChoosedWordSet"/>
+        <Button Text="Human Body Parts" Clicked="buttonChoosedWordSet"/>
+        <Button Text="Fruits" Clicked="buttonChoosedWordSet"/>
+        <Button Text="Vegetables" Clicked="buttonChoosedWordSet"/>
     </VerticalStackLayout>
 </ContentPage>

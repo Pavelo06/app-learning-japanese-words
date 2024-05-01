@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "w+m7Pbp6Odq39jZ3Ucp/+uOOOXWLHKSWrsh3CBwD2s6iPf8rKuvW0AduPeIHTBs3mY+g/5Rg7WOKADh9KGyqzg==",
+  "dgSpecHash": "toIkD8XLMfN1e3ez9rcqfySuUepzut3GNG/UhJp+U9MOWx0/EWZxhIO96naQH9SHBfxT11hxb5gCHhDLASpt7g==",
   "success": true,
   "projectFilePath": "C:\\Users\\dabro\\OneDrive\\Dokumenty\\GitHub\\app-learning-japanese-words\\slowa_japonski-polski\\slowa_japonski-polski.csproj",
   "expectedPackageFiles": [
@@ -29,6 +29,8 @@
     "C:\\Users\\dabro\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.3\\microsoft.net.illink.tasks.8.0.3.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
     "C:\\Users\\dabro\\.nuget\\packages\\microsoft.windowsappsdk\\1.3.230724000\\microsoft.windowsappsdk.1.3.230724000.nupkg.sha512",
+    "C:\\Users\\dabro\\.nuget\\packages\\plugin.maui.audio\\2.1.0\\plugin.maui.audio.2.1.0.nupkg.sha512",
+    "C:\\Users\\dabro\\.nuget\\packages\\system.runtime.interopservices.nfloat.internal\\6.0.1\\system.runtime.interopservices.nfloat.internal.6.0.1.nupkg.sha512",
     "C:\\Users\\dabro\\.nuget\\packages\\xamarin.android.glide\\4.15.1.2\\xamarin.android.glide.4.15.1.2.nupkg.sha512",
     "C:\\Users\\dabro\\.nuget\\packages\\xamarin.android.glide.annotations\\4.15.1.2\\xamarin.android.glide.annotations.4.15.1.2.nupkg.sha512",
     "C:\\Users\\dabro\\.nuget\\packages\\xamarin.android.glide.disklrucache\\4.15.1.2\\xamarin.android.glide.disklrucache.4.15.1.2.nupkg.sha512",

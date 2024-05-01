@@ -7,7 +7,8 @@
         Padding="30,0"
         Spacing="25">
 
-        <ImageButton Padding="1" Source="sound.png" HorizontalOptions="End"/>
+        <ImageButton Padding="1" Source="sound.png" HorizontalOptions="End"
+                     Clicked="imageButtonWordSound"/>
 
 
         <Label x:Name="labelSessionWordToGuess" 
