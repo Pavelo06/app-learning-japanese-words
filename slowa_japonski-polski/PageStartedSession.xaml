@@ -46,9 +46,14 @@
 
         <Button Text="End the session"
                 BackgroundColor="#72f2c3"
-                Clicked="buttonNameNext_Clicked"
+                Clicked="buttonEndSession"
                 x:Name="buttonNameEnd"
                 IsVisible="Collapse"/>
+
+        <Button Text="Leave"
+                BackgroundColor="#72f2c3"
+                Clicked="buttonLeave"
+                x:Name="buttonNameLeave"/>
 
     </VerticalStackLayout>
 </ContentPage>

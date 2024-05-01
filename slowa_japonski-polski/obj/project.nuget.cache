@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uHh09B961Gpr33dSpNbrC8zP+0jqI2yc5qAGSsuKHb0zBB4OREIiUqtSvOG06Ix/fP4uMlC3FjrwTlstzgLAwA==",
+  "dgSpecHash": "w+m7Pbp6Odq39jZ3Ucp/+uOOOXWLHKSWrsh3CBwD2s6iPf8rKuvW0AduPeIHTBs3mY+g/5Rg7WOKADh9KGyqzg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dabro\\Desktop\\projekty\\slowa_japonski-polski\\slowa_japonski-polski\\slowa_japonski-polski.csproj",
+  "projectFilePath": "C:\\Users\\dabro\\OneDrive\\Dokumenty\\GitHub\\app-learning-japanese-words\\slowa_japonski-polski\\slowa_japonski-polski.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dabro\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
     "C:\\Users\\dabro\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",

@@ -7,11 +7,12 @@ public partial class PageWordCategoryList : ContentPage
 	{
 		InitializeComponent();
 
-        wordList.Clear();
     }
 
 
     private async void buttonChoosedWordSet(object sender, EventArgs e) {
+        wordList.Clear();
+
         Button choosedSetButton = (Button)sender;
         string setName = choosedSetButton.Text;
 
@@ -53,7 +54,7 @@ public partial class PageWordCategoryList : ContentPage
                 wordList.Add(new WordClass("ebi", "エビ", "shrimp", "Animals B"));
                 wordList.Add(new WordClass("tako", "タコ", "octopus", "Animals B"));
                 wordList.Add(new WordClass("same", "サメ", "shark", "Animals B"));
-                wordList.Add(new WordClass("ari", "アリ\t", "ant", "Animals B"));
+                wordList.Add(new WordClass("ari", "アリ", "ant", "Animals B"));
                 wordList.Add(new WordClass("ka", "カ", "mosquito", "Animals B"));
                 wordList.Add(new WordClass("hae", "ハエ", "fly", "Animals B"));
                 wordList.Add(new WordClass("shichimenchou", "しちめんちょう", "turkey", "Animals B"));

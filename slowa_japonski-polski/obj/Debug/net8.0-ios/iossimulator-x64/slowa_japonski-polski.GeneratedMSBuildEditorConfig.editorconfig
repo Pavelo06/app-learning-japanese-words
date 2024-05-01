@@ -12,65 +12,65 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = slowa_japonski_polski
-build_property.ProjectDir = C:\Users\dabro\Desktop\projekty\slowa_japonski-polski\slowa_japonski-polski\
+build_property.ProjectDir = C:\Users\dabro\OneDrive\Dokumenty\GitHub\app-learning-japanese-words\slowa_japonski-polski\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/dabro/Desktop/projekty/slowa_japonski-polski/slowa_japonski-polski/App.xaml]
+[C:/Users/dabro/OneDrive/Dokumenty/GitHub/app-learning-japanese-words/slowa_japonski-polski/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = slowa_japonski_polski.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/dabro/Desktop/projekty/slowa_japonski-polski/slowa_japonski-polski/AppShell.xaml]
+[C:/Users/dabro/OneDrive/Dokumenty/GitHub/app-learning-japanese-words/slowa_japonski-polski/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = slowa_japonski_polski.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/dabro/Desktop/projekty/slowa_japonski-polski/slowa_japonski-polski/MainPage.xaml]
+[C:/Users/dabro/OneDrive/Dokumenty/GitHub/app-learning-japanese-words/slowa_japonski-polski/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = slowa_japonski_polski.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/dabro/Desktop/projekty/slowa_japonski-polski/slowa_japonski-polski/PageLogowanie.xaml]
+[C:/Users/dabro/OneDrive/Dokumenty/GitHub/app-learning-japanese-words/slowa_japonski-polski/PageLogowanie.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = slowa_japonski_polski.PageLogowanie.xaml
 build_metadata.AdditionalFiles.TargetPath = PageLogowanie.xaml
 build_metadata.AdditionalFiles.RelativePath = PageLogowanie.xaml
 
-[C:/Users/dabro/Desktop/projekty/slowa_japonski-polski/slowa_japonski-polski/PageMenuZalogowanegoUzytkownia.xaml]
+[C:/Users/dabro/OneDrive/Dokumenty/GitHub/app-learning-japanese-words/slowa_japonski-polski/PageMenuZalogowanegoUzytkownia.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = slowa_japonski_polski.PageMenuZalogowanegoUzytkownia.xaml
 build_metadata.AdditionalFiles.TargetPath = PageMenuZalogowanegoUzytkownia.xaml
 build_metadata.AdditionalFiles.RelativePath = PageMenuZalogowanegoUzytkownia.xaml
 
-[C:/Users/dabro/Desktop/projekty/slowa_japonski-polski/slowa_japonski-polski/PageRejestracja.xaml]
+[C:/Users/dabro/OneDrive/Dokumenty/GitHub/app-learning-japanese-words/slowa_japonski-polski/PageRejestracja.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = slowa_japonski_polski.PageRejestracja.xaml
 build_metadata.AdditionalFiles.TargetPath = PageRejestracja.xaml
 build_metadata.AdditionalFiles.RelativePath = PageRejestracja.xaml
 
-[C:/Users/dabro/Desktop/projekty/slowa_japonski-polski/slowa_japonski-polski/PageStartedSession.xaml]
+[C:/Users/dabro/OneDrive/Dokumenty/GitHub/app-learning-japanese-words/slowa_japonski-polski/PageStartedSession.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = slowa_japonski_polski.PageStartedSession.xaml
 build_metadata.AdditionalFiles.TargetPath = PageStartedSession.xaml
 build_metadata.AdditionalFiles.RelativePath = PageStartedSession.xaml
 
-[C:/Users/dabro/Desktop/projekty/slowa_japonski-polski/slowa_japonski-polski/PageWordCategoryList.xaml]
+[C:/Users/dabro/OneDrive/Dokumenty/GitHub/app-learning-japanese-words/slowa_japonski-polski/PageWordCategoryList.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = slowa_japonski_polski.PageWordCategoryList.xaml
 build_metadata.AdditionalFiles.TargetPath = PageWordCategoryList.xaml
 build_metadata.AdditionalFiles.RelativePath = PageWordCategoryList.xaml
 
-[C:/Users/dabro/Desktop/projekty/slowa_japonski-polski/slowa_japonski-polski/Resources/Styles/Colors.xaml]
+[C:/Users/dabro/OneDrive/Dokumenty/GitHub/app-learning-japanese-words/slowa_japonski-polski/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = slowa_japonski_polski.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/dabro/Desktop/projekty/slowa_japonski-polski/slowa_japonski-polski/Resources/Styles/Styles.xaml]
+[C:/Users/dabro/OneDrive/Dokumenty/GitHub/app-learning-japanese-words/slowa_japonski-polski/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = slowa_japonski_polski.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dabro\\Desktop\\projekty\\slowa_japonski-polski\\slowa_japonski-polski\\slowa_japonski-polski.csproj": {}
+    "C:\\Users\\dabro\\OneDrive\\Dokumenty\\GitHub\\app-learning-japanese-words\\slowa_japonski-polski\\slowa_japonski-polski.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dabro\\Desktop\\projekty\\slowa_japonski-polski\\slowa_japonski-polski\\slowa_japonski-polski.csproj": {
+    "C:\\Users\\dabro\\OneDrive\\Dokumenty\\GitHub\\app-learning-japanese-words\\slowa_japonski-polski\\slowa_japonski-polski.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dabro\\Desktop\\projekty\\slowa_japonski-polski\\slowa_japonski-polski\\slowa_japonski-polski.csproj",
+        "projectUniqueName": "C:\\Users\\dabro\\OneDrive\\Dokumenty\\GitHub\\app-learning-japanese-words\\slowa_japonski-polski\\slowa_japonski-polski.csproj",
         "projectName": "slowa_japonski-polski",
-        "projectPath": "C:\\Users\\dabro\\Desktop\\projekty\\slowa_japonski-polski\\slowa_japonski-polski\\slowa_japonski-polski.csproj",
+        "projectPath": "C:\\Users\\dabro\\OneDrive\\Dokumenty\\GitHub\\app-learning-japanese-words\\slowa_japonski-polski\\slowa_japonski-polski.csproj",
         "packagesPath": "C:\\Users\\dabro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dabro\\Desktop\\projekty\\slowa_japonski-polski\\slowa_japonski-polski\\obj\\",
+        "outputPath": "C:\\Users\\dabro\\OneDrive\\Dokumenty\\GitHub\\app-learning-japanese-words\\slowa_japonski-polski\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

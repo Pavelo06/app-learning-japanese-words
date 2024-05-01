@@ -39,6 +39,7 @@ public partial class PageStartedSession : ContentPage
             if (currentWordList.Count == 0) {
                 buttonNameCheck.IsVisible = false;
                 buttonNameNext.IsVisible = false;
+                buttonNameLeave.IsVisible = false;
                 buttonNameEnd.IsVisible = true;
 
                 entryTypedWord.Text = "";
@@ -85,7 +86,12 @@ public partial class PageStartedSession : ContentPage
 		entryTypedWord.Focus();
     }
 
-    private void buttonNameNext_Clicked(object sender, EventArgs e) {
+    private async void buttonEndSession(object sender, EventArgs e) {
+        await Navigation.PopModalAsync();
+    }
+
+    private async void buttonLeave(object sender, EventArgs e) {
+        await Navigation.PopModalAsync();
 
     }
 }
