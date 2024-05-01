@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="slowa_japonski_polski.PageRejestracja"
+             Title="PageRejestracja">
+    <VerticalStackLayout
+        Padding="30,0"
+        Spacing="25">
+        
+        <Label 
+            Text="Registration"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            FontSize="20"/>
+
+        <Entry x:Name="entryRegisterUsername" Placeholder="Enter your username"/>
+        <Entry x:Name="entryRegisterPassword" Placeholder="Enter your password"/>
+        <!--TO DO: Progress bar for 3 stages of how strong the passowrd is-->
+        <ProgressBar />
+        <Entry x:Name="entryRegisterPasswordRepeat" Placeholder="Repeat your password"/>
+
+        <Button Text="Create an account" Clicked="buttonCreateAccount"/>
+        <Button Text="Return to Main Page" Clicked="buttonReturnToMainPage"/>
+    </VerticalStackLayout>
+</ContentPage>

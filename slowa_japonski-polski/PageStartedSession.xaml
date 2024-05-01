@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="slowa_japonski_polski.PageStartedSession"
+             Title="PageStartedSession">
+    <VerticalStackLayout
+        Padding="30,0"
+        Spacing="25">
+
+        <ImageButton Padding="1" Source="sound.png" HorizontalOptions="End"/>
+
+
+        <Label x:Name="labelSessionWordToGuess" 
+                Grid.Column="1"
+                FontAttributes="Bold"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                FontSize="24"/>
+
+        <Label x:Name="labelWordInRomaji" 
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               FontSize="16"/>
+
+        <Label x:Name="labelHasWordBeenGuessedRight"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"/>
+
+        <Label x:Name="labelCorrectWordDisplayedWhenWrong"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"/>
+
+        <Entry x:Name="entryTypedWord"
+               Placeholder="Translate the word"/>
+
+        <Button Text="Check"
+                BackgroundColor="#72f2c3"
+                Clicked="buttonCheckWord"
+                x:Name="buttonNameCheck"/>
+
+        <Button Text="Next"
+                BackgroundColor="#72f2c3"
+                Clicked="buttonNextWord"
+                x:Name="buttonNameNext"
+                IsVisible="Collapse"/>
+
+        <Button Text="End the session"
+                BackgroundColor="#72f2c3"
+                Clicked="buttonNameNext_Clicked"
+                x:Name="buttonNameEnd"
+                IsVisible="Collapse"/>
+
+    </VerticalStackLayout>
+</ContentPage>

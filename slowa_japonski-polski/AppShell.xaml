@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="slowa_japonski_polski.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:slowa_japonski_polski"
+    Shell.FlyoutBehavior="Disabled"
+    Title="slowa_japonski_polski">
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:PageWordCategoryList}"
+        Route="MainPage" />
+
+</Shell>

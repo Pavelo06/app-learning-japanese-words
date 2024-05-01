@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="slowa_japonski_polski.PageMenuZalogowanegoUzytkownia"
+             Title="PageMenuZalogowanegoUzytkownia">
+    <VerticalStackLayout
+        Padding="30,0"
+        Spacing="25">
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30" />
+                <RowDefinition Height="50" />
+            </Grid.RowDefinitions>
+            
+            <Label Text="My Profile" 
+                   Grid.Column="1"
+                   VerticalOptions="Start"
+                   HorizontalOptions="End"/>
+            
+            <Label 
+                Text="Welcome, user"
+                x:Name="labelWelcomeUsername"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"
+                FontSize="20"/>
+
+
+            <ImageButton Source="user_profile.png"
+                            WidthRequest="65"
+                            Grid.Column="1"
+                         Grid.Row="1"
+                         HorizontalOptions="End"/>
+        </Grid>
+                
+        
+        <Button Text="Choose a word set" Clicked="buttonGoToWordSetPage"/>
+        <Button Text="Log out" Clicked="buttonLogout"/>
+    </VerticalStackLayout>
+</ContentPage>

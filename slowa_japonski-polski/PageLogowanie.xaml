@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="slowa_japonski_polski.PageLogowanie"
+             Title="PageLogowanie">
+    <VerticalStackLayout
+        Padding="30,0"
+        Spacing="25">
+        
+        <Label 
+            Text="Logging in"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            FontSize="20"/>
+
+        <Entry x:Name="entryLoginUsername" Placeholder="Enter your username"/>
+        <Entry IsPassword="True" x:Name="entryLoginPassword" Placeholder="Enter your password"/>
+
+        <Button Text="Log in" Clicked="buttonZaloguj"/>
+        <Button Text="Return to Main Page" Clicked="buttonPowrotDoMainPage"/>
+    </VerticalStackLayout>
+</ContentPage>
