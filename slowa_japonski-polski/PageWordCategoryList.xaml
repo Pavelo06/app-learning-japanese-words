@@ -2,23 +2,41 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="slowa_japonski_polski.PageWordCategoryList"
-             Title="PageWordCategoryList">
-    <VerticalStackLayout
+             Title="PageWordCategoryList"
+             Shell.NavBarIsVisible="False">
+    <ScrollView>
+        <VerticalStackLayout
         Padding="30,0"
         Spacing="10">
-        
-        <Label 
-            Text="All word categories"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center"
-            FontSize="20"/>
-        
-        <!--few categories with word sets-->
-        <Button Text="Animals A" Clicked="buttonChoosedWordSet"/>
-        <Button Text="Animals B" Clicked="buttonChoosedWordSet"/>
-        <Button Text="Human Face Parts" Clicked="buttonChoosedWordSet"/>
-        <Button Text="Human Body Parts" Clicked="buttonChoosedWordSet"/>
-        <Button Text="Fruits" Clicked="buttonChoosedWordSet"/>
-        <Button Text="Vegetables" Clicked="buttonChoosedWordSet"/>
-    </VerticalStackLayout>
+
+            <Label 
+                Text="All word categories"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"
+                Padding="10"
+                FontAttributes="Bold"
+                TextColor="Black"
+                FontSize="20"/>
+
+            <!--few categories with word sets-->
+            <Button Text="Animals A" 
+                    BackgroundColor="#cce62e"
+                    Clicked="buttonChoosedWordSet"/>
+            <Button Text="Animals B" 
+                    BackgroundColor="#cce62e"
+                    Clicked="buttonChoosedWordSet"/>
+            <Button Text="Human Face Parts"
+                    BackgroundColor="#cce62e"
+                    Clicked="buttonChoosedWordSet"/>
+            <Button Text="Human Body Parts"
+                    BackgroundColor="#cce62e"
+                    Clicked="buttonChoosedWordSet"/>
+            <Button Text="Fruits"
+                    BackgroundColor="#cce62e"
+                    Clicked="buttonChoosedWordSet"/>
+            <Button Text="Vegetables"
+                    BackgroundColor="#cce62e"
+                    Clicked="buttonChoosedWordSet"/>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

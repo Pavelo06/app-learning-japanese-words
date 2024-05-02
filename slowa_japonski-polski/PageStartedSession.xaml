@@ -16,11 +16,13 @@
                 FontAttributes="Bold"
                 VerticalOptions="Center"
                 HorizontalOptions="Center"
+                TextColor="black"
                 FontSize="24"/>
 
         <Label x:Name="labelWordInRomaji" 
                VerticalOptions="Center"
                HorizontalOptions="Center"
+               TextColor="black"
                FontSize="16"/>
 
         <Label x:Name="labelHasWordBeenGuessedRight"
@@ -29,9 +31,11 @@
 
         <Label x:Name="labelCorrectWordDisplayedWhenWrong"
                VerticalOptions="Center"
+               TextColor="black"
                HorizontalOptions="Center"/>
 
         <Entry x:Name="entryTypedWord"
+               TextColor="black"
                Placeholder="Translate the word"/>
 
         <Button Text="Check"
