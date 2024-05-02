@@ -21,6 +21,8 @@ public partial class PageStartedSession : ContentPage
     Random random = new Random();
 	int idWordToGuess = 0;
 
+    IAudioPlayer player; //player to play sound
+
     private void buttonCheckWord(object sender, EventArgs e) {
 		string typedWord = entryTypedWord.Text;
 		string wordToGuess = labelSessionWordToGuess.Text;
@@ -71,11 +73,14 @@ public partial class PageStartedSession : ContentPage
     }
 
     //function to draw next word
-    private void goToNextWord() {
+    private async void goToNextWord() {
         idWordToGuess = random.Next(currentWordList.Count);
 
         labelSessionWordToGuess.Text = currentWordList[idWordToGuess].inKanjiHiraganaKatakana;
         labelWordInRomaji.Text = currentWordList[idWordToGuess].inRomaji;
+
+        player = audioManager.CreatePlayer(await FileSystem.OpenAppPackageFileAsync(currentWordList[idWordToGuess].soundOfWord));
+
     }
 
     private void buttonNextWord(object sender, EventArgs e) {
@@ -101,9 +106,7 @@ public partial class PageStartedSession : ContentPage
         await Navigation.PopModalAsync();
     }
 
-    private async void imageButtonWordSound(object sender, EventArgs e) {
-        var player = audioManager.CreatePlayer(await FileSystem.OpenAppPackageFileAsync("cauldron.wav")); //add sounds for all words
-
+    private void imageButtonWordSound(object sender, EventArgs e) {
         player.Play();
     }
 }

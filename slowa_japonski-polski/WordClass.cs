@@ -12,12 +12,13 @@ namespace slowa_japonski_polski
         public string inKanjiHiraganaKatakana;
         public string inEnglish;
         public string wordSet;
-        //public string soundOfWord;
+        public string soundOfWord;
 
-        public WordClass(string inRomaji, string inKanjiHiraganaKatakana, string inEnglish, string wordSet) {
+        public WordClass(string inRomaji, string inKanjiHiraganaKatakana, string inEnglish, string soundOfWord, string wordSet) {
             this.inRomaji = inRomaji;
             this.inKanjiHiraganaKatakana = inKanjiHiraganaKatakana;
             this.inEnglish = inEnglish;
+            this.soundOfWord = soundOfWord;
             this.wordSet = wordSet;
         }
     }

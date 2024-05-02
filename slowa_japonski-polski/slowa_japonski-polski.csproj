@@ -58,7 +58,41 @@
 	<ItemGroup>
 	  <None Remove="Resources\Images\sound.png" />
 	  <None Remove="Resources\Images\user_profile.png" />
-	  <None Remove="Resources\Raw\cauldron.wav" />
+	  <None Remove="Resources\Raw\Animals A sounds\buta.wav" />
+	  <None Remove="Resources\Raw\Animals A sounds\hato.wav" />
+	  <None Remove="Resources\Raw\Animals A sounds\hebi.wav" />
+	  <None Remove="Resources\Raw\Animals A sounds\inu.wav" />
+	  <None Remove="Resources\Raw\Animals A sounds\kaeru.wav" />
+	  <None Remove="Resources\Raw\Animals A sounds\kame.wav" />
+	  <None Remove="Resources\Raw\Animals A sounds\kani.wav" />
+	  <None Remove="Resources\Raw\Animals A sounds\kirin.wav" />
+	  <None Remove="Resources\Raw\Animals A sounds\kitsune.wav" />
+	  <None Remove="Resources\Raw\Animals A sounds\kuma.wav" />
+	  <None Remove="Resources\Raw\Animals A sounds\nezumi.wav" />
+	  <None Remove="Resources\Raw\Animals A sounds\panda.wav" />
+	  <None Remove="Resources\Raw\Animals A sounds\raion.wav" />
+	  <None Remove="Resources\Raw\Animals A sounds\sakana.wav" />
+	  <None Remove="Resources\Raw\Animals A sounds\saru.wav" />
+	  <None Remove="Resources\Raw\Animals A sounds\tora.wav" />
+	  <None Remove="Resources\Raw\Animals A sounds\uma.wav" />
+	  <None Remove="Resources\Raw\Animals A sounds\usagi.wav" />
+	  <None Remove="Resources\Raw\Animals A sounds\zou.wav" />
+	  <None Remove="Resources\Raw\Animals B sounds\ari.wav" />
+	  <None Remove="Resources\Raw\Animals B sounds\ebi.wav" />
+	  <None Remove="Resources\Raw\Animals B sounds\hae.wav" />
+	  <None Remove="Resources\Raw\Animals B sounds\ika.wav" />
+	  <None Remove="Resources\Raw\Animals B sounds\ka.wav" />
+	  <None Remove="Resources\Raw\Animals B sounds\kangaru.wav" />
+	  <None Remove="Resources\Raw\Animals B sounds\koumori.wav" />
+	  <None Remove="Resources\Raw\Animals B sounds\niwatori.wav" />
+	  <None Remove="Resources\Raw\Animals B sounds\risu.wav" />
+	  <None Remove="Resources\Raw\Animals B sounds\same.wav" />
+	  <None Remove="Resources\Raw\Animals B sounds\shichimenchou.wav" />
+	  <None Remove="Resources\Raw\Animals B sounds\tako.wav" />
+	  <None Remove="Resources\Raw\Animals B sounds\tori.wav" />
+	  <None Remove="Resources\Raw\Animals B sounds\ushi.wav" />
+	  <None Remove="Resources\Raw\Animals B sounds\wani.wav" />
+	  <None Remove="Resources\Raw\neko.wav" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -85,6 +119,13 @@
 	  <MauiXaml Update="PageWordCategoryList.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Resources\Raw\Human Face Parts sounds\" />
+	  <Folder Include="Resources\Raw\Human Body Parts sounds\" />
+	  <Folder Include="Resources\Raw\Fruits sounds\" />
+	  <Folder Include="Resources\Raw\Vegetables sounds\" />
 	</ItemGroup>
 
 </Project>
