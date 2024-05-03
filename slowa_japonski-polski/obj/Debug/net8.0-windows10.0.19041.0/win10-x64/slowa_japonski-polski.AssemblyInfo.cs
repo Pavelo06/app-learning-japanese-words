@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("slowa_japonski-polski")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+64b49319f8ffca1aa2989b4fce9168a5009f3213")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+f0c73fc41d5422f80339562bd726044d9202c53b")]
 [assembly: System.Reflection.AssemblyProductAttribute("slowa_japonski-polski")]
 [assembly: System.Reflection.AssemblyTitleAttribute("slowa_japonski-polski")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

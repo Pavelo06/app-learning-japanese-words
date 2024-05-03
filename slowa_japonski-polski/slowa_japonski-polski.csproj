@@ -92,7 +92,64 @@
 	  <None Remove="Resources\Raw\Animals B sounds\tori.wav" />
 	  <None Remove="Resources\Raw\Animals B sounds\ushi.wav" />
 	  <None Remove="Resources\Raw\Animals B sounds\wani.wav" />
+	  <None Remove="Resources\Raw\Fruits sounds\banana.wav" />
+	  <None Remove="Resources\Raw\Fruits sounds\budou.wav" />
+	  <None Remove="Resources\Raw\Fruits sounds\ichigo.wav" />
+	  <None Remove="Resources\Raw\Fruits sounds\kiui.wav" />
+	  <None Remove="Resources\Raw\Fruits sounds\kudamono.wav" />
+	  <None Remove="Resources\Raw\Fruits sounds\mangoo.wav" />
+	  <None Remove="Resources\Raw\Fruits sounds\momo.wav" />
+	  <None Remove="Resources\Raw\Fruits sounds\orenji.wav" />
+	  <None Remove="Resources\Raw\Fruits sounds\painappuru.wav" />
+	  <None Remove="Resources\Raw\Fruits sounds\remon.wav" />
+	  <None Remove="Resources\Raw\Fruits sounds\ringo.wav" />
+	  <None Remove="Resources\Raw\Fruits sounds\sakuranbo.wav" />
+	  <None Remove="Resources\Raw\Fruits sounds\suika.wav" />
+	  <None Remove="Resources\Raw\Human Body Parts sounds\ashi.wav" />
+	  <None Remove="Resources\Raw\Human Body Parts sounds\atama.wav" />
+	  <None Remove="Resources\Raw\Human Body Parts sounds\hara.wav" />
+	  <None Remove="Resources\Raw\Human Body Parts sounds\hiji.wav" />
+	  <None Remove="Resources\Raw\Human Body Parts sounds\hiza.wav" />
+	  <None Remove="Resources\Raw\Human Body Parts sounds\kubi.wav" />
+	  <None Remove="Resources\Raw\Human Body Parts sounds\mune.wav" />
+	  <None Remove="Resources\Raw\Human Body Parts sounds\nodo.wav" />
+	  <None Remove="Resources\Raw\Human Body Parts sounds\shiri.wav" />
+	  <None Remove="Resources\Raw\Human Body Parts sounds\ude.wav" />
+	  <None Remove="Resources\Raw\Human Body Parts sounds\yubi.wav" />
+	  <None Remove="Resources\Raw\Human Face Parts sounds\ha.wav" />
+	  <None Remove="Resources\Raw\Human Face Parts sounds\hana.wav" />
+	  <None Remove="Resources\Raw\Human Face Parts sounds\hitai.wav" />
+	  <None Remove="Resources\Raw\Human Face Parts sounds\hoho.wav" />
+	  <None Remove="Resources\Raw\Human Face Parts sounds\kaminoke.wav" />
+	  <None Remove="Resources\Raw\Human Face Parts sounds\kuchi.wav" />
+	  <None Remove="Resources\Raw\Human Face Parts sounds\me.wav" />
+	  <None Remove="Resources\Raw\Human Face Parts sounds\mimi.wav" />
+	  <None Remove="Resources\Raw\Human Face Parts sounds\shita.wav" />
 	  <None Remove="Resources\Raw\neko.wav" />
+	  <None Remove="Resources\Raw\Vegetables sounds\daikon.wav" />
+	  <None Remove="Resources\Raw\Vegetables sounds\jagaimo.wav" />
+	  <None Remove="Resources\Raw\Vegetables sounds\kabocha.wav" />
+	  <None Remove="Resources\Raw\Vegetables sounds\kinoko.wav" />
+	  <None Remove="Resources\Raw\Vegetables sounds\kyabetsu.wav" />
+	  <None Remove="Resources\Raw\Vegetables sounds\kyuuri.wav" />
+	  <None Remove="Resources\Raw\Vegetables sounds\nasu.wav" />
+	  <None Remove="Resources\Raw\Vegetables sounds\ninjin.wav" />
+	  <None Remove="Resources\Raw\Vegetables sounds\ninniku.wav" />
+	  <None Remove="Resources\Raw\Vegetables sounds\retasu.wav" />
+	  <None Remove="Resources\Raw\Vegetables sounds\shouga.wav" />
+	  <None Remove="Resources\Raw\Vegetables sounds\tamanegi.wav" />
+	  <None Remove="Resources\Raw\Vegetables sounds\tomato.wav" />
+	  <None Remove="Resources\Raw\Vegetables sounds\yasai.wav" />
+	  <None Remove="Resources\Raw\Western Food sounds\furaidochikin.wav" />
+	  <None Remove="Resources\Raw\Western Food sounds\hanbaaga.wav" />
+	  <None Remove="Resources\Raw\Western Food sounds\hottodoggu.wav" />
+	  <None Remove="Resources\Raw\Western Food sounds\piza.wav" />
+	  <None Remove="Resources\Raw\Western Food sounds\poteto.wav" />
+	  <None Remove="Resources\Raw\Western Food sounds\sandoitchi.wav" />
+	  <None Remove="Resources\Raw\Western Food sounds\sarada.wav" />
+	  <None Remove="Resources\Raw\Western Food sounds\supagettii.wav" />
+	  <None Remove="Resources\Raw\Western Food sounds\suteeki.wav" />
+	  <None Remove="Resources\Raw\Western Food sounds\suupu.wav" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -119,13 +176,6 @@
 	  <MauiXaml Update="PageWordCategoryList.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Folder Include="Resources\Raw\Human Face Parts sounds\" />
-	  <Folder Include="Resources\Raw\Human Body Parts sounds\" />
-	  <Folder Include="Resources\Raw\Fruits sounds\" />
-	  <Folder Include="Resources\Raw\Vegetables sounds\" />
 	</ItemGroup>
 
 </Project>

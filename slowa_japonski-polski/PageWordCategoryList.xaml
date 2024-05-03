@@ -37,6 +37,9 @@
             <Button Text="Vegetables"
                     BackgroundColor="#cce62e"
                     Clicked="buttonChoosedWordSet"/>
+            <Button Text="Western Food"
+                    BackgroundColor="#cce62e"
+                    Clicked="buttonChoosedWordSet"/>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

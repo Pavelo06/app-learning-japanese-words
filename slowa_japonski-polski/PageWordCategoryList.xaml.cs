@@ -50,7 +50,7 @@ public partial class PageWordCategoryList : ContentPage
             case "Animals B":
                 wordList.Add(new WordClass("niwatori", "ニワトリ", "chicken", "Animals B sounds/niwatori.wav", "Animals B"));
                 wordList.Add(new WordClass("tori", "とり", "bird", "Animals B sounds/tori.wav", "Animals B"));
-                wordList.Add(new WordClass("koumori", "コウモリ", "Animals B sounds/koumori.wav", "bat", "Animals B"));
+                wordList.Add(new WordClass("koumori", "コウモリ", "bat", "Animals B sounds/koumori.wav", "Animals B"));
                 wordList.Add(new WordClass("risu", "リス", "squirrel", "Animals B sounds/risu.wav", "Animals B"));
                 wordList.Add(new WordClass("ushi", "ウシ", "cow", "Animals B sounds/ushi.wav", "Animals B"));
                 wordList.Add(new WordClass("kangaru-", "カンガルー", "kangaroo", "Animals B sounds/kangaru.wav", "Animals B"));
@@ -67,68 +67,80 @@ public partial class PageWordCategoryList : ContentPage
                 break;
 
             case "Human Face Parts":
-               /* wordList.Add(new WordClass("kaminoke", "髪の毛", "hair", "Human Face Parts"));
-                wordList.Add(new WordClass("hitai", "ひたい", "forehead", "Human Face Parts"));
-                wordList.Add(new WordClass("me", "目", "eyes", "Human Face Parts"));
-                wordList.Add(new WordClass("mimi", "耳", "ear", "Human Face Parts"));
-                wordList.Add(new WordClass("hana", "鼻", "nose", "Human Face Parts"));
-                wordList.Add(new WordClass("hoho", "ほほ", "cheek", "Human Face Parts"));
-                wordList.Add(new WordClass("kuchi", "口", "mouth", "Human Face Parts"));
-                wordList.Add(new WordClass("teeth", "歯 ", "ha", "Human Face Parts"));
-                wordList.Add(new WordClass("shita", "舌", "tounge", "Human Face Parts"));*/
+                wordList.Add(new WordClass("kaminoke", "髪の毛", "hair", "Human Face Parts sounds/kaminoke.wav", "Human Face Parts"));
+                wordList.Add(new WordClass("hitai", "ひたい", "forehead", "Human Face Parts sounds/hitai.wav", "Human Face Parts"));
+                wordList.Add(new WordClass("me", "目", "eyes", "Human Face Parts sounds/me.wav", "Human Face Parts"));
+                wordList.Add(new WordClass("mimi", "耳", "ear", "Human Face Parts sounds/mimi.wav", "Human Face Parts"));
+                wordList.Add(new WordClass("hana", "鼻", "nose", "Human Face Parts sounds/hana.wav", "Human Face Parts"));
+                wordList.Add(new WordClass("hoho", "ほほ", "cheek", "Human Face Parts sounds/hoho.wav", "Human Face Parts"));
+                wordList.Add(new WordClass("kuchi", "口", "mouth", "Human Face Parts sounds/kuchi.wav", "Human Face Parts"));
+                wordList.Add(new WordClass("ha", "歯 ", "teeth", "Human Face Parts sounds/ha.wav", "Human Face Parts"));
+                wordList.Add(new WordClass("shita", "舌", "tounge", "Human Face Parts sounds/shita.wav", "Human Face Parts"));
 
                 break;
 
             case "Human Body Parts":
-                //wordList.Add(new WordClass("atama", "頭", "head", "Human Body Parts"));
-                //wordList.Add(new WordClass("ude", "腕", "arm", "Human Body Parts"));
-                //wordList.Add(new WordClass("yubi", "指", "finger", "Human Body Parts"));
-                //wordList.Add(new WordClass("mune", "胸", "chest", "Human Body Parts"));
-                //wordList.Add(new WordClass("hara", "腹", "stomach", "Human Body Parts"));
-                //wordList.Add(new WordClass("ashi", "脚", "leg", "Human Body Parts"));
-                //wordList.Add(new WordClass("ashi", "足", "foot", "Human Body Parts"));
-                //wordList.Add(new WordClass("hiza", "ひざ", "knee", "Human Body Parts"));
-                //wordList.Add(new WordClass("kubi", "首", "neck", "Human Body Parts"));
-                //wordList.Add(new WordClass("nodo", "のど", "throat", "Human Body Parts"));
-                //wordList.Add(new WordClass("hiji", "ひじ", "elbow", "Human Body Parts"));
-                //wordList.Add(new WordClass("shiri", "尻", "hip", "Human Body Parts"));
+                wordList.Add(new WordClass("atama", "頭", "head", "Human Body Parts sounds/atama.wav", "Human Body Parts"));
+                wordList.Add(new WordClass("ude", "腕", "arm", "Human Body Parts sounds/ude.wav", "Human Body Parts"));
+                wordList.Add(new WordClass("yubi", "指", "finger", "Human Body Parts sounds/yubi.wav", "Human Body Parts"));
+                wordList.Add(new WordClass("mune", "胸", "chest", "Human Body Parts sounds/mune.wav", "Human Body Parts"));
+                wordList.Add(new WordClass("hara", "腹", "stomach", "Human Body Parts sounds/hara.wav", "Human Body Parts"));
+                wordList.Add(new WordClass("ashi", "脚", "leg", "Human Body Parts sounds/ashi.wav", "Human Body Parts"));
+                wordList.Add(new WordClass("ashi", "足", "foot", "Human Body Parts sounds/ashi.wav", "Human Body Parts"));
+                wordList.Add(new WordClass("hiza", "ひざ", "knee", "Human Body Parts sounds/hiza.wav", "Human Body Parts"));
+                wordList.Add(new WordClass("kubi", "首", "neck", "Human Body Parts sounds/kubi.wav", "Human Body Parts"));
+                wordList.Add(new WordClass("nodo", "のど", "throat", "Human Body Parts sounds/nodo.wav", "Human Body Parts"));
+                wordList.Add(new WordClass("hiji", "ひじ", "elbow", "Human Body Parts sounds/hiji.wav", "Human Body Parts"));
+                wordList.Add(new WordClass("shiri", "尻", "hip", "Human Body Parts sounds/shiri.wav", "Human Body Parts"));
 
                 break;
 
             case "Fruits":
-                //wordList.Add(new WordClass("ichigo", "イチゴ", "strawberry", "Fruits"));
-                //wordList.Add(new WordClass("orenji", "オレンジ", "orange", "Fruits"));
-                //wordList.Add(new WordClass("ringo", "りんご", "apple", "Fruits"));
-                //wordList.Add(new WordClass("remon", "レモン", "lemon", "Fruits"));
-                //wordList.Add(new WordClass("budō", "ぶどう", "grape", "Fruits"));
-                //wordList.Add(new WordClass("banana", "バナナ", "banana", "Fruits"));
-                //wordList.Add(new WordClass("momo", "もも", "peach", "Fruits"));
-                //wordList.Add(new WordClass("suika", "スイカ", "watermelon", "Fruits"));
-                //wordList.Add(new WordClass("kiui", "キウイ", "kiwi", "Fruits"));
-                //wordList.Add(new WordClass("mangō", "マンゴー", "mango", "Fruits"));
-                //wordList.Add(new WordClass("sakuranbo", "さくらんぼ", "cherry", "Fruits"));
-                //wordList.Add(new WordClass("kudamono", "くだもの", "fruit", "Fruits"));
-                //wordList.Add(new WordClass("painappuru", "パイナップル", "pineapple", "Fruits"));
+                wordList.Add(new WordClass("ichigo", "イチゴ", "strawberry", "Fruits sounds/ichigo.wav", "Fruits"));
+                wordList.Add(new WordClass("orenji", "オレンジ", "orange", "Fruits sounds/orenji.wav", "Fruits"));
+                wordList.Add(new WordClass("ringo", "りんご", "apple", "Fruits sounds/ringo.wav", "Fruits"));
+                wordList.Add(new WordClass("remon", "レモン", "lemon", "Fruits sounds/remon.wav", "Fruits"));
+                wordList.Add(new WordClass("budou", "ぶどう", "grape", "Fruits sounds/budou.wav", "Fruits"));
+                wordList.Add(new WordClass("banana", "バナナ", "banana", "Fruits sounds/banana.wav", "Fruits"));
+                wordList.Add(new WordClass("momo", "もも", "peach", "Fruits sounds/momo.wav", "Fruits"));
+                wordList.Add(new WordClass("suika", "スイカ", "watermelon", "Fruits sounds/suika.wav", "Fruits"));
+                wordList.Add(new WordClass("kiui", "キウイ", "kiwi", "Fruits sounds/kiui.wav", "Fruits"));
+                wordList.Add(new WordClass("mangoo", "マンゴー", "mango", "Fruits sounds/mangoo.wav", "Fruits"));
+                wordList.Add(new WordClass("sakuranbo", "さくらんぼ", "cherry", "Fruits sounds/sakuranbo.wav", "Fruits"));
+                wordList.Add(new WordClass("kudamono", "くだもの", "fruit", "Fruits sounds/kudamono.wav", "Fruits"));
+                wordList.Add(new WordClass("painappuru", "パイナップル", "pineapple", "Fruits sounds/painappuru.wav", "Fruits"));
 
                 break;
 
             case "Vegetables":
-                //wordList.Add(new WordClass("yasai", "やさい", "vegetable", "Vegetables"));
-                //wordList.Add(new WordClass("ninjin", "にんじん", "carrot", "Vegetables"));
-                //wordList.Add(new WordClass("daikon", "だいこん", "white raddish", "Vegetables"));
-                //wordList.Add(new WordClass("jagaimo", "ジャガイモ", "potato", "Vegetables"));
-                //wordList.Add(new WordClass("nasu", "なす", "eggplant", "Vegetables"));
-                //wordList.Add(new WordClass("tomato", "トマト", "tomato", "Vegetables"));
-                //wordList.Add(new WordClass("tamanegi", "たまねぎ", "onion", "Vegetables"));
-                //wordList.Add(new WordClass("kyūri", "きゅうり", "cucumber", "Vegetables"));
-                //wordList.Add(new WordClass("tōmorokoshi", "トウモロコシ", "corn", "Vegetables"));
-                //wordList.Add(new WordClass("kabocha", "かぼちゃ", "pumpkin", "Vegetables"));
-                //wordList.Add(new WordClass("retasu", "レタス", "lettuce", "Vegetables"));
-                //wordList.Add(new WordClass("kyabetsu", "キャベツ", "cabbage", "Vegetables"));
-                //wordList.Add(new WordClass("ninniku", "ニンニク", "garlic", "Vegetables"));
-                //wordList.Add(new WordClass("kinoko", "キノコ", "mushroom", "Vegetables"));
-                //wordList.Add(new WordClass("shōga", "しょうが", "ginger", "Vegetables"));
-                //wordList.Add(new WordClass("hōrensō", "ほうれんそう", "spinach", "Vegetables"));
+                wordList.Add(new WordClass("yasai", "やさい", "vegetable", "Vegetables sounds/yasai.wav", "Vegetables"));
+                wordList.Add(new WordClass("ninjin", "にんじん", "carrot", "Vegetables sounds/ninjin.wav", "Vegetables"));
+                wordList.Add(new WordClass("daikon", "だいこん", "white raddish", "Vegetables sounds/daikon.wav", "Vegetables"));
+                wordList.Add(new WordClass("jagaimo", "ジャガイモ", "potato", "Vegetables sounds/jagaimo.wav", "Vegetables"));
+                wordList.Add(new WordClass("nasu", "なす", "eggplant", "Vegetables sounds/nasu.wav", "Vegetables"));
+                wordList.Add(new WordClass("tomato", "トマト", "tomato", "Vegetables sounds/tomato.wav", "Vegetables"));
+                wordList.Add(new WordClass("tamanegi", "たまねぎ", "onion", "Vegetables sounds/tamanegi.wav", "Vegetables"));
+                wordList.Add(new WordClass("kyuuri", "きゅうり", "cucumber", "Vegetables sounds/kyuuri.wav", "Vegetables"));
+                wordList.Add(new WordClass("kabocha", "かぼちゃ", "pumpkin", "Vegetables sounds/kabocha.wav", "Vegetables"));
+                wordList.Add(new WordClass("retasu", "レタス", "lettuce", "Vegetables sounds/retasu.wav", "Vegetables"));
+                wordList.Add(new WordClass("kyabetsu", "キャベツ", "cabbage", "Vegetables sounds/kyabetsu.wav", "Vegetables"));
+                wordList.Add(new WordClass("ninniku", "ニンニク", "garlic", "Vegetables sounds/ninniku.wav", "Vegetables"));
+                wordList.Add(new WordClass("kinoko", "キノコ", "mushroom", "Vegetables sounds/kinoko.wav", "Vegetables"));
+                wordList.Add(new WordClass("shouga", "しょうが", "ginger", "Vegetables sounds/shouga.wav", "Vegetables"));
+
+                break;
+
+            case "Western Food":
+                wordList.Add(new WordClass("suupu", "スープ", "soup", "Western Food sounds/suupu.wav", "Western Food"));
+                wordList.Add(new WordClass("sarada", "サラダ", "salad", "Western Food sounds/sarada.wav", "Western Food"));
+                wordList.Add(new WordClass("sandoitchi", "サンドイッチ", "sandwich", "Western Food sounds/sandoitchi.wav", "Western Food"));
+                wordList.Add(new WordClass("hanbaagaa", "ハンバーガー", "hamburger", "Western Food sounds/hanbaagaa.wav", "Western Food"));
+                wordList.Add(new WordClass("hottodoggu", "ホットドッグ", "hotdog", "Western Food sounds/hottodoggu.wav", "Western Food"));
+                wordList.Add(new WordClass("poteto", "ポテト", "fries", "Western Food sounds/poteto.wav", "Western Food"));
+                wordList.Add(new WordClass("furaidochikin", "フライドチキン", "fried chicken", "Western Food sounds/furaidochikin.wav", "Western Food"));
+                wordList.Add(new WordClass("suteeki", "ステーキ", "steak", "Western Food sounds/suteeki.wav", "Western Food"));
+                wordList.Add(new WordClass("piza", "ピザ", "pizza", "Western Food sounds/piza.wav", "Western Food"));
+                wordList.Add(new WordClass("supagettii", "スパゲッティー", "spaghetti", "Western Food sounds/supagettii.wav", "Western Food"));
 
                 break;
             default:
