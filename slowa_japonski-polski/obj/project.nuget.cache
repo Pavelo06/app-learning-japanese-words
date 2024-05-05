@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "toIkD8XLMfN1e3ez9rcqfySuUepzut3GNG/UhJp+U9MOWx0/EWZxhIO96naQH9SHBfxT11hxb5gCHhDLASpt7g==",
+  "dgSpecHash": "yr8n3rQPIeckZEiVt58jdATHlU4ttoak6c+QOdQ8gWzZ2hjZq1GEU0yx0L7ETpEeU42DbrChP83kP+l4uY8A5g==",
   "success": true,
   "projectFilePath": "C:\\Users\\dabro\\OneDrive\\Dokumenty\\GitHub\\app-learning-japanese-words\\slowa_japonski-polski\\slowa_japonski-polski.csproj",
   "expectedPackageFiles": [
@@ -114,7 +114,11 @@
     "C:\\Users\\dabro\\.nuget\\packages\\xamarin.kotlin.stdlib.jdk8\\1.9.0.1\\xamarin.kotlin.stdlib.jdk8.1.9.0.1.nupkg.sha512",
     "C:\\Users\\dabro\\.nuget\\packages\\xamarin.kotlinx.coroutines.android\\1.7.2.1\\xamarin.kotlinx.coroutines.android.1.7.2.1.nupkg.sha512",
     "C:\\Users\\dabro\\.nuget\\packages\\xamarin.kotlinx.coroutines.core.jvm\\1.7.2.1\\xamarin.kotlinx.coroutines.core.jvm.1.7.2.1.nupkg.sha512",
-    "C:\\Users\\dabro\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.31\\microsoft.windows.sdk.net.ref.10.0.19041.31.nupkg.sha512"
+    "C:\\Users\\dabro\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\8.0.3\\microsoft.netcore.app.crossgen2.win-x64.8.0.3.nupkg.sha512",
+    "C:\\Users\\dabro\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.31\\microsoft.windows.sdk.net.ref.10.0.19041.31.nupkg.sha512",
+    "C:\\Users\\dabro\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.3\\microsoft.aspnetcore.app.runtime.win-x64.8.0.3.nupkg.sha512",
+    "C:\\Users\\dabro\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.3\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.3.nupkg.sha512",
+    "C:\\Users\\dabro\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.3\\microsoft.netcore.app.runtime.win-x64.8.0.3.nupkg.sha512"
   ],
   "logs": []
 }
